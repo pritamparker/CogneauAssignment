@@ -1,0 +1,26 @@
+<html>
+<title>Test Assignment</title>
+<link rel="stylesheet" href="css/main.css">
+
+<head></head>
+
+<body onload="_renderData()">
+    <div class="upper">
+        <div class="left" id="selectedItem">
+        </div>
+        <div class="right">
+            <p> &nbsp;Select a metric</p>
+        </div>
+    </div>
+    <div class="dropdown">
+        <div>
+            <input type="text" name="item" class="search" oninput="_typeAndSearch()" placeholder="search">
+        </div>
+        <div class="list" id="render">
+            <!-- rendered data is here-->
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

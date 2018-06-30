@@ -1,0 +1,31 @@
+.upper{
+    width: 300px;
+    border: 1px solid black;
+}
+.left{
+    float: left;
+}
+.right{
+    /* float:right; */
+    color: blue;
+}
+.dropdown{
+    border: 1px solid black;
+    width: 300px;
+}
+li{
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+.list{
+    padding: 10px;
+    padding-top: 0px;
+    height: 300px;
+    overflow: scroll;
+}
+.search{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
